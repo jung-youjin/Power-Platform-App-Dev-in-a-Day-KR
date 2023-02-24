@@ -109,6 +109,7 @@
 
     ```bash
     subscriptionId=$(az account show --query "id" -o tsv)
+
     az ad sp create-for-rbac \
         --name "spn-gppb{{랜덤숫자}}" \
         --role contributor \
