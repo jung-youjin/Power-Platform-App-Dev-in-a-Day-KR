@@ -32,7 +32,7 @@
    - Select a project template: `Empty Template`
    - Please enter a new environment name: `gppb{{랜덤숫자}}` ⬅️ `{{랜덤숫자}}`는 앞서 `echo $RANDOM`으로 생성한 숫자를 가리킵니다.
    - Please select an Azure Subscription to use: 구독 이름 선택
-   - Please select an Azure location to use: `(Asia Pacific) Korea Central (koreacentral)`
+   - Please select an Azure location to use: `13. (Asia Pacific) Korea Central (koreacentral)`
 
 5. 아래 파일이 만들어진 것을 확인합니다.
 
