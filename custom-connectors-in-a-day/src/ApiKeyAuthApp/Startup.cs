@@ -43,6 +43,7 @@ namespace ApiKeyAuthApp
                     Title = "API AuthN'd by API Key",
                     Description = "This is the API authN'd by an API key."
                 }
+                
             };
 
             var codespaces = bool.TryParse(Environment.GetEnvironmentVariable("OpenApi__RunOnCodespaces"), out var isCodespaces) && isCodespaces;
